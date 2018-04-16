@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<title>SMK PLUS BNM TANJUNG MUTIARA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/slider.css" rel="stylesheet" type="text/css" />
+  
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+    <script src="slider/responsiveslides.min.js"></script>
+ 	<script>
+  		$(function() {
+   		$(".rslides").responsiveSlides();
+ 		});
+	</script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+<!-- PRELOADER -->
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="home.html"><img src="images/logo.png"></a>
+					</div><!-- //LOGO -->
+					
+					<!-- SEARCH FORM -->
+					<div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+						</form>
+					</div><!-- SEARCH FORM -->
+					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >BERANDA</a></li>
+                                <li class="sub-menu"><a href="#" >PROFIL <b class="caret" style="padding-bottom:4px; color:#fff;"></b></a>
+									<ul>
+                                    	<li><a href="#sejarah" >SEJARAH</a></li>
+										<li><a href="#visimisi" >VISI DAN MISI</a></li>
+										<li><a href="#guru" >GURU DAN TENAGA KEPENDIDIKAN</a></li>
+										<li><a href="#saran" >SARANA DAN PRASARANA</a></li>
+                                        <li><a href="#partner" >KERJASAMA</a></li>
+									</ul>
+                                </li>
+                              	<li class="sub-menu"><a href="#jurusan" >JURUSAN <b class="caret" style="padding-bottom:4px"></b></a>
+									<ul>
+										<li><a href="akuntansi.html" >AKUNTANSI</a></li>
+										<li><a href="admperkantoran.html">ADMINISTRASI PERKANTORAN</a></li>
+										<li><a href="pariwisata.html" >PARIWISATA</a></li>
+                                        <li><a href="tatabusana.html" >TATA BUSANA</a></li>
+									</ul>
+                                </li>
+								<li class="sub-menu"><a href="#" >AKADEMIK <b class="caret" style="padding-bottom:4px"></b></a>
+									<ul>
+										<li><a href="psb.html" >PENERIMAAN SISWA BARU</a></li>
+                                        
+                                        <li><a href="program-pembelajaran.html" >PROGRAM PEMBELAJARAN</a></li>	
+                                        <li><a href="peraturan.html" >PERATURAN DAN TATA TERTIB</a></li>
+									</ul>
+                                </li>
+								<li class="scroll_btn"><a href="galeri.html" >GALERI</a></li>
+                                <li class="scroll_btn"><a href="#berita" >BERITA</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >KONTAK</a></li>
+								
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+		
+	<!--Slider-->
+    <section id="home" class="padbot0" style="background:#CCC">
+		<ul class="rslides">
+  			<li><a href="psb.html"><img src="images/2.jpg" alt=""></a></li>
+  			<li><center><img src="images/3.jpg" alt=""></center></li>
+                        
+                                           
+		</ul>
+	</section>
+	<!--/Slider-->
+    
+    
+    <!-- JURUSAN -->
+		<section id="jurusan">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+                <center><h3><b>JURUSAN</b></h3></center><br>
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a href="akuntansi.html">
+                            <center><img style="height:150px; width:150px" src="images/31.png"></center>
+                            <center>Akuntansi</center>
+                            </a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a href="admperkantoran.html">
+                            <center><img style="height:150px; width:150px" src="images/34.png"></center>
+                            <center>Administrasi Perkantoran</center>
+                            </a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a href="pariwisata.html">
+                            <center><img style="height:150px; width:150px" src="images/33.png"></center>
+                            <center>Pariwisata</center>
+                            </a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a href="tatabusana.html">
+                            <center><img style="height:150px; width:150px" src="images/14.png"></center>
+                            <center>Tata Busana</center>
+                            </a>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+		</section><!-- //JURUSAN -->
+    
+    
+        <!-- SEJARAH -->
+		<section id="sejarah">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-1 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							
+						</div>
+						<div class="col-lg-10 col-md-6 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<center><h3><b>SEKILAS TENTANG YAYASAN BINA MANDIRI</b></h3></center><br>
+                                	
+                                	<span style="text-align:justify">&emsp;&emsp;&emsp;Yayasan Bina Mandiri adalah sebuah yayasan yang bergerak dibidang pendidikan mulai dari Taman Kanak Kanak sampai dengan Perguruan Tinggi. Yayasan ini berdiri dengan akta notaris Rita Yusneli SH, akta nomor 11, tanggal 11 Mei 2000,  kemudian disesuai dengan perubahan akta yayasan tanggal 23 Agustus 2007, nomor 33. </span><br/>
+                                    <span style="text-align:justify">&emsp;&emsp;&emsp;Selanjutnya yayasan ini didaftarkan ke Kementerian Hukum dan Hak Azazi Manusia dengan nomor AHU-AH.01.08.81, tanggal 19 Februari 2010. Ada pun kegiatan yayasan ini semenjak berdiri tahun 2000 sampai sekarang telah mendirikan  beberapa lembaga pendidikan, yaitu :
+</span><br/>
+                             		<span>1. 	Sekolah Tinggi Ilmu Administrasi Bina Nusantara Mandiri (STIA BNM) Pariaman.</span>
+                                    <span>2. 	SMK Plus BNM Pariaman.</span>
+                                    <span>3. 	Akademi Kebidanan Bina Nusantara Mandiri (Akbid BNM) Pariaman.</span>
+                                    <span>4.	SMK Plus BNM Pariaman jurusan farmasi.</span><br><br><br><br><br>
+                                   
+							</a>
+                            <hr>
+						</div>
+						<div class="col-lg-1 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+		</section><!-- //SEJARAH -->
+    
+    	
+    
+    	<!-- VISI MISI -->
+		<section id="visimisi">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-1 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							
+						</div>
+						<div class="col-lg-10 col-md-6 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<center><h3><b>VISI DAN MISI SMK PLUS BNM TANJUNG MUTIARA</b></h3></center><br>
+                                	<span><b>VISI</b></span>
+                                    <span>" Terwujudnya tenaga kerja tingkat menengah yang kompeten, mandiri, bermoral, berbudaya dan dapat bersaing secara Nasional. "</span><br/>
+                                   
+                                	<span><b>MISI</b></span>
+                                    <span>Memberikan pelayanan yang optimal kepada peserta diklat yang berorientasi pada mutu tamatan yang berstandar nasional dengan cara :</span><br/>
+                                    <span>1. 	Menjalin kerjasama dengan Dunia Usaha/Dunia Industri dan masyarakat.</span>
+                                    <span>2. 	Melengkapi fasilitas yang menunjang diklat.</span>
+                                    <span>3. 	Meningkatkan mutu tenaga pendidik.</span>
+                                    <span>4.	Memperbaiki organisasi dan manajemen.</span>
+                                    <span>5.	Mengubah peserta didik, dari status beban menjadi faktor keunggulan dalam berbagai sektor pembangunan.</span>
+                                    <span>6.	Membekali peserta didik dengan kemampuan, kepribadian dan keterampilan yang dapat mengembangkan dirinya secara berkelanjutan.</span><br/><br><br><br><br>
+                             
+                             <hr>     
+							</a>
+						</div>
+						<div class="col-lg-1 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+		</section><!-- //VISI MISI -->
+    
+    
+        <!-- GURU -->
+		<section id="guru">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-1 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							
+						</div>
+						<div class="col-lg-10 col-md-6 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<center><h3><b>GURU DAN TENAGA KEPENDIDIKAN</b></h3></center><br>
+                                    <span style="text-align:justify">&emsp;&emsp;&emsp;Syarat umum tenaga pengajar di SMK PLUS BNM TANJUNG MUTIARA harus mampu menjadi murabbi/murabbiyah sejati, pendidik yang inovatif, konselor yang penuh empati dan menjadi sumber inspirasi dan referensi bagi semua murid. Di SMK PLUS BNM, guru harus mampu bertindak sebagai murabbi/murabbiyah dengan karakteristik sebagai berikut :</span><br/>
+                                    
+                                    <span>1. 	Memiliki keikhlasan dan motivasi pendidik yang tinggi.</span>
+                                    <span>2. 	Memiliki pemahaman dan amalan keIslaman yang baik.</span>
+                                    <span>3. 	Memiliki karakter dan kepribadian Nabawwiyah.</span>
+                                    <span>4.	Memiliki penguasaan materi yang baik dan strategi mengajar yang inovatif dan bermakna.</span>
+                                    <span>5.	Memiliki kemampuan mengintegrasikan materi ajar dengan nilai-nilai keislaman.</span>
+                                    <span>6.	Memiliki pemahaman konsep pendidikan, psikologi belajar dan perkembangan santri yang baik.</span>
+                                    <span>7.	Memiliki kemampuan menggunakan teknologi informasi secara efektif.</span>
+                                    <span>8.	Memiliki kemampuan komunikasi yang santun dan efektif dalam bahasa Indonesia, bahasa Arab.</span><br/><br><br><br><br>
+                             
+                             <hr>     
+							</a>
+						</div>
+						<div class="col-lg-1 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+		</section><!-- //GURU -->
+        
+        <!-- SARANA -->
+        <section id="saran" style="padding: 40px 0px 150px 0px">
+        <div class="container">
+
+            <div class="section-header">
+                <center><h3><b>SARANA DAN PRASARANA</b></h3></center><br>
+                <span style="text-align:justify; color:#000; font-size:16px">&emsp;&emsp;&emsp;Dalam rangka mendukung kepesanternan, Yayasan Bina Mandiri telah menyiapkan :</span><br/>
+             
+<!--Tabel-->
+					<!--Toggle-->
+                    <div role="tabpanel" class="text-left wow fadeInDown" style="padding: 15px 0px 0px 0px">
+                        <ul class="nav main-tab nav-justified" role="tablist" style="font:sans-serif">
+                            <li role="presentation" class="active" style="font-size:17px">
+                                <a href="#tab1" role="tab" data-toggle="tab" aria-controls="tab1" aria-expanded="true">Sarana Dan Pasarana</a>
+                            </li>
+                        </ul>
+                        
+                        <div id="tab-content" class="tab_content" style="color:#000; font-size:16px">
+<!--Prestasi-->
+                            <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
+<!--Tabel-->
+                            	<table class="table table-striped table-bordered table-hover table-condensed">
+    								<thead>
+      									<tr>
+        									<th><center>Nama Ruangan</center></th>
+        									<th><center>Jumlah</center></th>
+                                            <th><center>Nama Ruangan</center></th>
+        									<th><center>Jumlah</center></th>
+      									</tr>
+    								</thead>
+    								<tbody>
+      									<tr>
+        									<td>Ruang Belajar</td>
+        									<td><center>6</center></td>
+                                            <td>Mushola</td>
+        									<td><center>1</center></td>
+      									</tr>
+      									<tr>
+        									<td>Ruang Paktikum</td>
+        									<td><center>2</center></td>
+                                            <td>Asrama</td>
+        									<td><center>1</center></td>
+      									</tr>
+      									<tr>
+        									<td>Ruang Kantor</td>
+        									<td><center>1</center></td>
+                                            <td>Ruang Kajian Kepesantrenan</td>
+        									<td><center>1</center></td>
+      									</tr>
+                                        <tr>
+        									<td>UKS</td>
+        									<td><center>1</center></td>
+                                            <td>Kamar Mandi</td>
+        									<td><center>5</center></td>
+      									</tr>
+                                        <tr>
+        									<td>Parkir</td>
+        									<td><center>1</center></td>
+                                            <td>Dapur Umum</td>
+        									<td><center>1</center></td>
+      									</tr>
+    								</tbody>
+  								</table>
+<!--/Tabel-->
+                            </div>
+<!--/Prestasi-->
+
+                        </div>
+                    </div>
+<!--/Toggle--
+<!--/Tabel-->   
+            </div>  
+        </div><!--/.container-->
+    </section><!--//SARANA-->
+    
+		
+		
+		
+		
+		<!-- PROJECTS -->
+		<section id="partner" class="padbot20" style="padding: 50px 0px 150px 0px">		
+			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+				<!-- PROJECTS SLIDER -->
+				<div class="owl-demo owl-carousel projects_slider">	
+				</div><!-- //PROJECTS SLIDER -->
+			</div>
+			
+			
+			<!-- OUR CLIENTS -->
+			<div class="our_clients">
+			
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+					
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/1.png" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/2.png" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/3.png" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/4.png" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/5.png" alt="" />
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+							<img src="images/clients/6.png" alt="" />
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- CONTAINER -->
+			</div><!-- //OUR CLIENTS -->
+		</section><!-- //PROJECTS -->
+        
+        <!-- BERITA -->
+		<section id="berita" style="padding: 40px 0px 160px 0px">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<a class="services_item" href="javascript:void(0);" >
+					<center><h3><b>BERITA</b></h3></center><br>
+                </a>
+				
+				<!-- RECENT POSTS -->
+				<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
+					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+						<div class="post_item">
+							<div class="post_item_img">
+								<img src="images/pendaftaran.jpg" alt="" />
+								<a class="link" href="psb.html" ></a>
+							</div>
+							<div class="post_item_content">
+								<a class="title" href="psb.html" >Penerimaan Siswa Baru Ta 2017/2018</a>
+							</div>
+						</div>
+					</div>	
+					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+						<div class="post_item">
+							<div class="post_item_img">
+								<img src="images/24.jpg" alt="" />
+								<a class="link" href="berita1.html" ></a>
+							</div>
+							<div class="post_item_content">
+								<a class="title" href="psb.html" >Daarul Falah Gelar Daurah Tahfidzul Quran</a>
+							</div>
+						</div>
+					</div>	
+				</div><!-- RECENT POSTS -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //BERITA -->
+        
+	</div><!-- //PAGE -->
+	
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+	
+	<!-- FOOTER -->
+	<footer style="padding-top:20px">
+			
+		<!-- CONTAINER -->
+		<div class="container-fluid" style="padding:0px 20px 0px 20px">
+			
+			<!-- ROW -->
+			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+            
+           		<div class="col-lg-3 col-md-3 padbot30 foot_about_block" style="color:#fff">
+					<h4><b>Kontak</b></h4>
+                    <!--<img src="images/smkplus.png" alt="" /><br>-->
+                    <b style="color:#FFF; font-size:18px">SMK PLUS BNM TANJUNG MUTIARA</b><br>
+                    Jln Raya Gasan Kecil, Kecamatan Tanjung Mutiara<br>Sumatera Barat<br>
+                   	<span style="color:#55b8bf" class="glyphicon glyphicon-earphone"> Zaimul : 085355127239</span> <br>
+                    <span style="color:#55b8bf" class="glyphicon glyphicon-earphone"> Rahmi : 085355800047</span> <br>
+                    <span style="color:#55b8bf" class="glyphicon glyphicon-envelope"> smkbnmdarulfalah@gmail.com</span><br><br>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+				</div>
+				
+			
+				<div class="col-lg-3 col-md-3 padbot30">
+					<h4><b>Link Partner</b></h4>
+                    <a style="font-size:14px; color:#FFF" href="http://bos.kemdikbud.go.id/" ><span style="color:#55b8bf" class="glyphicon glyphicon-hand-right"><b style="color:#FFF"> Bantuan Operasional Sekolah </b></span></a><br>
+					<a style="font-size:14px; color:#FFF" href="http://www.kemdikbud.go.id/" ><span style="color:#55b8bf" class="glyphicon glyphicon-hand-right"><b style="color:#FFF"> Kemendikbud</b></span></a><br>
+                    <a style="font-size:14px; color:#FFF" href="https://www.kominfo.go.id/" ><span style="color:#55b8bf" class="glyphicon glyphicon-hand-right"><b style="color:#FFF"> Kominfo</b></span></a><br>
+                    <a style="font-size:14px; color:#FFF" href="http://www.sumbarprov.go.id/" ><span style="color:#55b8bf" class="glyphicon glyphicon-hand-right"><b style="color:#FFF"> Dinas Pendidikan Sumatera Barat</b></span></a>
+					
+				</div>
+                
+                <div class="col-lg-3 col-md-3 padbot30">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13419.73307212452!2d99.94819562582073!3d-0.421198504012746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd508f176378c8d%3A0x6ecd7a5b993a5262!2sSMK+Plus+BNM+TJ.+Mutiara%2C+Tiku%2C+SUM-BAR!5e0!3m2!1sid!2sid!4v1493423929411" width="650" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+               
+				
+					
+				</div>
+                
+			</div><!-- //ROW -->
+			
+            <div class="container-fluid"
+            <div class="row copyright">
+				<div class="col-lg-12 text-center">
+				 	<p style="color:#FFF">CopyRight &copy; SMK PLUS BNM 2017 </p>
+				</div>
+			
+			</div><!-- //ROW -->
+            </div>
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+
+</div>
+</body>
+</html>
